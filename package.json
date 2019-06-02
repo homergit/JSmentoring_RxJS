@@ -1,0 +1,25 @@
+{
+  "name": "RxJs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:homergit/JSmentoring_RxJS.git"
+  },
+  "author": "Popovych Bohdan",
+  "license": "ISC",
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.0.3",
+    "css-loader": "^2.1.1",
+    "mini-css-extract-plugin": "^0.6.0",
+    "rxjs": "^6.5.2",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1",
+    "webpack-dev-server": "^3.4.1"
+  }
+}
